@@ -1,0 +1,434 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+header{
+	background: #80af65;
+	height: 57px;
+}
+
+.first{
+	width: 130px;
+	float: right;
+}
+
+.logo{
+	margin-top: 13px;
+}
+
+.last{
+	width: 31px;
+	height: 31px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background: #ffffff;
+	float: left;
+	margin-top: 12px;
+	margin-right: 12px;
+}
+
+.first p{
+	color: #fff;
+	font-weight: bold;
+	font-size: 13px;
+	padding-top: 5px;
+}
+
+.challenge img{
+    margin-right: 10px;
+    margin-top: -11px;
+}
+
+.container{
+	width: 100%;
+	padding: 0;
+}
+
+.mini_chal{
+	background: #364442;
+	height: 100px;
+	font-size: 32px;
+	color: #fff;
+}
+
+.questions{
+	float: right;
+	margin: 18px 30px;
+	font-size: 43px;
+	color: #fff;
+}
+
+.questions:hover{
+	cursor: pointer;
+}
+
+.challenge{
+	text-transform: uppercase;
+	font-size: 32px;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.item ul{
+	padding: 0;
+}
+
+.item ul li{
+	display: inline;
+}
+
+.vs{
+	font-size: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.name1{
+	border-left: 1px solid #EBEBEB;
+}
+
+.col-md-6, .col-md-12{
+	padding: 0;
+}
+
+.table{
+	height: 100px;
+	border-bottom: 1px solid #EBEBEB;
+	background: #fff;
+	text-align: center;
+}
+
+.table ul{
+	margin: 0;
+	padding-top: 30px;
+	padding-left: 0;
+}
+
+.table ul li{
+	display: inline;
+	list-style: none;
+	text-transform: uppercase;
+	padding: 0 48px;
+}
+
+.table ul li a{
+	color: #364442;
+	font-size: 24px;
+}
+
+.table ul li a:hover{
+	color: #80af65;
+}
+
+.table_toggle{
+	border-bottom: 1px solid #EBEBEB;
+	border-left: 1px solid #EBEBEB;
+}
+
+.name, .name1{
+	height: 75px;
+	border-bottom: 1px solid #EBEBEB;
+	text-transform: uppercase;
+	margin: 0 auto;
+	font-size: 24px;
+	color: #546a67;
+	background: #FAFAFA;
+}
+
+.name, .name1 span{
+	text-align: center;
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.game{
+	border: 1px solid #EBEBEB;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	font-size: 24px;
+	padding: 3px 6px;
+	text-transform: uppercase;
+	margin: auto;
+	display: table;
+	margin-bottom: 7px;
+	color: #808080;
+}
+
+.content{
+	padding: 30px 0;
+	border-bottom: 1px solid #EBEBEB;
+}
+
+.next_game{
+	border-bottom: 1px solid #EBEBEB;
+}
+
+.item{
+	margin: 0 auto;
+	display: table;
+}
+
+.center{
+	text-transform: none;
+	font-size: 20px;
+	color: #546a67;
+	padding: 0 !important;
+}
+
+.versus{
+	padding: 30px 0;
+	border-bottom: 1px solid #EBEBEB;
+	text-align: center;
+}
+
+.rah{
+	margin-bottom: -8px;
+	text-align: center;
+}
+
+.rah ul{
+	margin: 0;
+}
+
+.rah ul li{
+	display: inline;
+	list-style: none;
+}
+
+.a, .b{
+	background-color: #80af65;
+	font-size: 66px;
+	font-weight: bold;
+	padding: 6px 29px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	color: #fff;
+}
+
+.b{
+	background-color: #33AADD !important;
+}
+
+.count{
+	font-size: 100px;
+	color: #546a67;
+	vertical-align: -10px;
+	margin: 0 50px;
+}
+
+.time{
+	font-size: 80px;
+	color: #8DAFB8;
+	text-align: center;
+}
+
+.footer{
+	height: 150px;
+	background-color: #FAFAFA;
+}
+
+.title{
+	font-size: 20px !important;
+	color: #999999 !important;
+}
+
+.sd table tr td{
+	font-size: 24px;
+	color: #546a67;
+	padding: 11px;
+}
+
+.sd table{
+	text-align: center;
+	margin: auto;
+}
+
+.sd{
+	padding: 22px 0;
+}
+
+.pts{
+	font-size: 26px !important;
+	color: #80af65 !important;
+	font-weight: bold;
+}
+
+.min_a, .min_b, .min_c, .min_d{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	display: block !important;
+	padding: 3px 12px !important;
+	margin-top: 10px;
+	font-weight: bold;
+	color: #FFF !important;
+	margin-right: 18px;
+}
+
+.min_a{
+ background-color: #80af65;
+}
+
+.min_b{
+ background-color: #33AADD;
+}
+
+.min_c{
+	background-color: #F16A63;
+}
+
+.min_d{
+	background-color: #FFCC55;
+}
+
+.games19, .games20, .games21{
+	border: 1px solid #EBEBEB;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	font-size: 24px;
+	padding: 3px 6px;
+	text-transform: uppercase;
+	margin: auto;
+	display: table;
+	margin-top: 9px;
+	color: #808080;
+	float: left;
+}
+
+.games19, .games20, .games21:hover{
+	cursor: pointer;
+}
+
+.line{
+	border-bottom: 1px solid #EBEBEB;
+	padding-bottom: 22px;
+	text-align: center;
+}
+
+.line li{
+	display: inline-block;
+	list-style: none;
+}
+
+.line_live{
+	float: right;
+	margin-right: 40px;
+	text-transform: uppercase;
+	font-size: 26px;
+	color: #F16A63;
+	margin-top: 14px
+}
+
+.line_rah{
+	font-size: 36px;
+	color: #546a67;
+	vertical-align: -4px;
+}
+
+.line_d, .line_a, .line_b, .line_c{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3px 12px !important;
+	font-weight: bold;
+	color: #FFF !important;
+	margin: 10px 11px 0 11px;
+	font-size: 24px;
+}
+
+.line_d{
+	background-color: #FFCC55;
+}
+
+.line_a{
+	background-color: #80af65;
+}
+
+.line_b{
+	background-color: #33AADD;
+}
+
+.line_c{
+	background-color: #F16A63;
+}
+
+.minute{
+	font-size: 22px;
+	color: #CCCCCC;
+	float: right;
+	margin-right: 40px;
+	margin-top: 14px
+}
+
+.line ul{
+	padding: 0 !important;
+	margin-top: 22px;
+	display: none;
+}
+
+.line ul li{
+	display: block;
+	height: 90px;
+	border-top: 1px solid #EBEBEB;
+}
+
+.goals{
+	text-align: center;
+}
+
+.times{
+	float: left;
+	margin-top: 10px;
+	color: #8DAFB8;
+}
+
+span.goals_rah {
+	font-size: 36px;
+	color: #546a67;
+	display: block;
+}
+
+.full_time{
+	float: right;
+	margin-right: 40px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	position: absolute;
+	right: 0;
+}
+
+.pib{
+	color: #80af65;
+}

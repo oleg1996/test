@@ -1,0 +1,277 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+ .a, .b{
+  background-color: #80af65;
+  font-size: 55px;
+  font-weight: bold;
+  padding: 6px 28px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  color: #fff;
+ }
+
+
+ .rah ul{
+  margin: 0;
+  padding: 0 !important;
+ }
+
+ .count{
+  font-size: 82px;
+  color: #546a67;
+  vertical-align: -10px;
+  margin: 0 12px;
+ }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+ .line {
+  padding-left: 10px;
+  text-align: left;
+ }
+
+ .games19, .games20, .games21 {
+  font-size: 19px;
+  padding: 3px 5px;
+  color: #808080;
+  float: left;
+  margin-right: 13px;
+ }
+
+ .line_d, .line_a, .line_b, .line_c {
+  padding: 3px 12px !important;
+  margin: 10px 3px 0 3px;
+  font-size: 20px;
+ }
+
+ .line_rah {
+  font-size: 29px;
+ }
+
+ .minute {
+  margin-right: 10px;
+ }
+
+ .line_live {
+  margin-right: 10px;
+  font-size: 23px;
+ }
+
+ .a, .b{
+  font-size: 40px;
+  padding: 6px 22px;
+ }
+
+
+ .rah ul{
+  margin: 0;
+  padding: 0 !important;
+ }
+
+ .count{
+  font-size: 65px;
+  color: #546a67;
+  vertical-align: -10px;
+  margin: 0 18px;
+ }
+
+ .full_time{
+  font-size: 15px;
+ }
+
+ .challenge {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 35px;
+ }
+
+    .challenge img{
+        margin-right: 8px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 390px) {
+    .challenge img{
+        width: 32px;
+        margin-right: 8px;
+    }
+
+    .challenge {
+        font-size: 19px;
+        text-align: left;
+        padding-top: 35px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+ .a, .b{
+  background-color: #80af65;
+  font-size: 29px;
+  font-weight: bold;
+  padding: 6px 16px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  color: #fff;
+ }
+
+
+ .rah ul{
+  margin: 0;
+  padding: 0 !important;
+ }
+
+ .count{
+  font-size: 51px;
+  color: #546a67;
+  vertical-align: -10px;
+  margin: 0 2px;
+ }
+
+ .time{
+  font-size: 70px;
+  color: #8DAFB8;
+  text-align: center;
+ }
+
+ .games19, .games20, .games21 {
+  font-size: 13px;
+  padding: 4px 4px;
+  float: left;
+  margin-right: 4px;
+ }
+
+ .line_d, .line_a, .line_b, .line_c {
+  padding: 3px 9px !important;
+  margin: 10px 0px 0 0px;
+  font-size: 14px;
+ }
+
+ .line_rah {
+  font-size: 21px;
+ }
+
+ .minute {
+  margin-right: 6px;
+  font-size: 17px;
+ }
+
+ .line_live {
+  margin-right: 6px;
+  font-size: 17px;
+ }
+
+ .line {
+  padding-left: 5px;
+  text-align: left;
+ }
+
+ .sd table tr td {
+   font-size: 20px;
+ }
+
+ .title {
+  font-size: 18px !important;
+ }
+
+ .sd table tr td {
+  padding: 8px;
+ }
+
+ .pts {
+  font-size: 20px !important;
+ }
+
+ .min_a, .min_b, .min_c, .min_d {
+  margin-right: 0;
+ }
+
+ .full_time{
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+ }
+
+ .challenge {
+  font-size: 22px;
+  text-align: left;
+  padding-top: 30px;
+ }
+
+ .questions {
+  margin: 18px 0;
+ }
+
+ .challenge img{
+     width: 32px;
+ }
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+ .a, .b{
+  background-color: #80af65;
+  font-size: 55px;
+  font-weight: bold;
+  padding: 6px 29px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  color: #fff;
+ }
+
+
+ .rah ul{
+  margin: 0;
+  padding: 0 !important;
+ }
+
+ .count{
+  font-size: 88px;
+  color: #546a67;
+  vertical-align: -10px;
+  margin: 0 40px;
+ }
+}
